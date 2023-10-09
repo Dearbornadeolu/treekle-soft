@@ -1,14 +1,14 @@
-import React from 'react'
-// import Header from './comp/Header'
+
+import Header from './comp/Header'
 import Main from "./comp/Main"
-// import Footer from "./comp/Footer"
+import Footer from "./comp/Footer"
 
 const LandingPage = () => {
   return (
     <div>
-{/*        <Header/> */}
+       <Header/>
        <Main/>
-{/*        <Footer/> */}
+       <Footer/>
     </div>
   )
 }
