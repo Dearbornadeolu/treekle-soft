@@ -1,0 +1,36 @@
+.footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 90px;
+  background-color: #444444;
+  color: #fff;
+}
+
+.footer1 {
+  display: flex;
+  gap: 50px;
+}
+
+.footerServices,
+.footerAcct,
+.footerDestination {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footerImgs {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.footerImg {
+  background-color: #fff;
+  padding: 7px;
+  border-radius: 100%;
+}
+
+.footer1 a {
+  font-size: 12px;
+}
