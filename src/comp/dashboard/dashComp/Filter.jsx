@@ -37,6 +37,16 @@ const Filter = () => {
                         </label>
                     </div>
                 </div>
+                <div className="flex flex-col gap-3 p-[10px]">
+                    <div className="flex justify-between">
+                        <h1 className="font-bold">Stops</h1>
+                        <button className="underline">Clear</button>
+                    </div>
+                    <div className="flex justify-start gap-6">
+                            <input type="text" className="w-[50px] h-[50px] border-2 text-black placeholder:text-black" placeholder="1"  />
+                            <input type="text" className="w-[50px] h-[50px] border-2 text-black placeholder:text-black" placeholder="1+"/>
+                    </div>
+                </div>
 
             </div>
         </div>
