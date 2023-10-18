@@ -21,7 +21,7 @@ const Filter = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex flex-col gap-3 p-[10px]">
+                <div className="flex flex-col gap-3 p-[10px] border-b-2">
                     <div className="flex justify-between">
                         <h1 className="font-bold">Payment Options</h1>
                         <button className="underline">Clear</button>
@@ -37,7 +37,7 @@ const Filter = () => {
                         </label>
                     </div>
                 </div>
-                <div className="flex flex-col gap-3 p-[10px]">
+                <div className="flex flex-col gap-3 p-[10px] border-b-2">
                     <div className="flex justify-between">
                         <h1 className="font-bold">Stops</h1>
                         <button className="underline">Clear</button>
@@ -54,7 +54,38 @@ const Filter = () => {
 
                     </div>
                 </div>
-
+                <div className="flex flex-col gap-3 p-[10px] border-b-2">
+                    <div className="flex justify-between">
+                        <h1 className="font-bold">Airline</h1>
+                        <button className="underline">Clear</button>
+                    </div>
+                    <div>
+                        <label className="flex items-center gap-2">
+                            <input type="checkbox" className="form-checkbox" />
+                            <span>Kenya Airways</span>
+                        </label>
+                        <label className="flex items-center gap-2">
+                            <input type="checkbox" className="form-checkbox" />
+                            <span>Ethiopian Airways</span>
+                        </label>
+                        <label className="flex items-center gap-2">
+                            <input type="checkbox" className="form-checkbox" />
+                            <span>Turkish Airways</span>
+                        </label>
+                        <label className="flex items-center gap-2">
+                            <input type="checkbox" className="form-checkbox" />
+                            <span>Lufthansa </span>
+                        </label>
+                        <label className="flex items-center gap-2">
+                            <input type="checkbox" className="form-checkbox" />
+                            <span>Quatar Airways</span>
+                        </label>
+                    </div>
+                    
+                </div>
+                <div>
+                        <h1 className="font-bold">Flexibility</h1>
+                    </div>
             </div>
         </div>
     )
