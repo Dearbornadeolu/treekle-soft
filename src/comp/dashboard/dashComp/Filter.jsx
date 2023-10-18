@@ -43,8 +43,15 @@ const Filter = () => {
                         <button className="underline">Clear</button>
                     </div>
                     <div className="flex justify-start gap-6">
-                            <input type="text" className="w-[50px] h-[50px] border-2 text-black placeholder:text-black" placeholder="1"  />
-                            <input type="text" className="w-[50px] h-[50px] border-2 text-black placeholder:text-black" placeholder="1+"/>
+                        <label htmlFor="" className="flex flex-col">
+                            <input type="text" className="w-[50px] h-[50px] border-2 text-black placeholder:text-black" placeholder="1" />
+                            <span>N800,000</span>
+                        </label>
+                        <label htmlFor="" className="flex flex-col">
+                            <input type="text" className="w-[50px] h-[50px] border-2 text-black placeholder:text-black" placeholder="1+" />
+                            <span>N1 000,000</span>
+                        </label>
+
                     </div>
                 </div>
 
