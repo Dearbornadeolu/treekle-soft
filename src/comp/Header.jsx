@@ -11,30 +11,8 @@ const Header = () => {
         <p>DestinationXplorer</p>
       </div>
       <div className={styles.navLinks}>
-        <Link to="/" className={styles.navLink} activeClassName={styles.active}>
-          Home
-        </Link>
-        <Link
-          to="/about"
-          className={styles.navLink}
-          activeClassName={styles.active}
-        >
-          About
-        </Link>
-        <Link
-          to="/testimonials"
-          className={styles.navLink}
-          activeClassName={styles.active}
-        >
-          Testimonials
-        </Link>
-        <Link
-          to="/contact"
-          className={styles.navLink}
-          activeClassName={styles.active}
-        >
-          Contact Us
-        </Link>
+       <Link to="/about" >About </Link>
+       <Link to="/services" >Services </Link>
       </div>
       <div className={styles.account}>
         <Link className={styles.acct1}>Log In</Link>
