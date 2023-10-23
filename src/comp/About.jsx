@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-// import Header from "./Header";
+import Header from "./Header";
 // import Footer from "./Footer";
 
 const About = () => {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       {/*  bg-gradient-to-t from-blue-50 via-blue-100 to-blue-400 w-64 */}
       <div className="md:flex md:w-[90%] m-auto mt-5 gap-2">
         <div className="w-[100%] md:w-[80%] lg:w-[60%]">
