@@ -1,8 +1,10 @@
+import Header from "./Header"
 
 const Services = () => {
   return (
     <>
     <div className="md:w-[90%] m-auto p-[10px] md:p-0">
+        <Header/>
         <div className=" ">
             <h1 className="text-[40px] font-bold font-Inter">
                 Our Service
