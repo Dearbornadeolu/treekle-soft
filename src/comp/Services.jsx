@@ -36,6 +36,18 @@ const Services = () => {
                 Optimize your product listings for maximum visibility and conversion. Our product management services include optimizing product descriptions, images, and pricing to create an appealing and user-friendly shopping experience.
                 </p>
             </li>
+            <li className="mt-5">
+                <h1 className="flex items-center gap-4 text-[1.2rem] font-bold"><div className="bg-black w-[8px] h-[8px] rounded-full"></div> Payment Gateway Setup</h1>
+                <p className="mt-4">
+                We'll help you set up secure and reliable payment gateways to ensure smooth transactions and build trust with your customers. Our experts will guide you through the process and recommend the best payment solutions for your business needs.
+                </p>
+            </li>
+            <li className="mt-5">
+                <h1 className="flex items-center gap-4 text-[1.2rem] font-bold"><div className="bg-black w-[8px] h-[8px] rounded-full"></div> Performance Optimization</h1>
+                <p className="mt-4">
+                Improve your websites performance and speed with our optimization services. From caching to image optimization, we will fine-tune your eCommerce site to deliver a seamless and fast browsing experience for your customers.
+                </p>
+            </li>
         </ul>
     </div>
     </>
