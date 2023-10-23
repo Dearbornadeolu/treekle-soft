@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 // import Header from "./Header";
 // import Footer from "./Footer";
 
@@ -48,6 +48,32 @@ const About = () => {
             <p>
               Helping you sell stuff is what gets us uo in the morning - we do not do any other type of marketing.
             </p>
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-5  font-Inter md:w-[80%] md:m-auto justify-between pt-[50px]">
+          <div>
+            <h1 className="text-[20px] font-extrabold text-center">+ 310%</h1>
+            <p className="font-medium">increase in Revenue</p>
+            <img src="/co1.svg" alt="" className="w-fit" />
+            <div className="text-center">
+              <Link to="#" className="text-[.5rem] font-bold underline text-center text-[#70C216] ">View Case study</Link>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-[20px] font-extrabold text-center">+ 310%</h1>
+            <p className="font-medium">increase in Revenue</p>
+            <img src="/col2.svg" alt="" className="w-fit" />
+            <div className="text-center">
+              <Link to="#" className="text-[.5rem] font-bold underline text-center text-[#70C216] ">View Case study</Link>
+            </div>
+          </div>
+          <div>
+            <h1 className="text-[20px] font-extrabold text-center">+ 310%</h1>
+            <p className="font-medium">increase in Revenue</p>
+            <img src="/col3.svg" alt="" className="w-fit" />
+            <div className="text-center">
+              <Link to="#" className="text-[.5rem] font-bold underline text-center text-[#70C216] ">View Case study</Link>
+            </div>
           </div>
         </div>
       </div>
