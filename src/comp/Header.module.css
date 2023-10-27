@@ -3,19 +3,34 @@
   align-items: center;
   justify-content: space-between;
   padding: 40px 90px;
-  background-color: #fff;
+  background: linear-gradient(
+    180deg,
+    #e6f0ff 0%,
+    rgba(248, 251, 255, 0.34) 100%
+  );
 }
 
 .logo {
   display: flex;
   align-items: center;
   gap: 5px;
+  color: #7953f8;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .navLinks {
   display: flex;
-  gap: 30px;
-  font-size: 14px;
+  gap: 45px;
+  color: #999;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .account {
@@ -25,21 +40,36 @@
 }
 
 .acct1 {
-  border: 1px solid black;
+  border: 0.5px solid #7854f6;
   padding: 5px 20px;
-  border-radius: 10px;
+  border-radius: 25px;
+  color: #7854f6;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
 }
 
 .acct2 {
-  background-color: #f0c301;
   padding: 5px 20px;
-  border-radius: 10px;
+  border-radius: 25px;
+  border-radius: 25px;
+  background: #7854f6;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
 }
 
 .active {
-  border-bottom: 1px solid #f0c301;
+  /* border-bottom: 1px solid #f0c301; */
 }
 
-.navLink:hover {
-  border-bottom: 1px solid #f0c301;
+.link:hover {
+  color: #606f82;
 }
