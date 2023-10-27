@@ -2,8 +2,9 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 90px;
-  background-color: #444444;
+  background: #6036ef;
   color: #fff;
+  flex-shrink: 0;
 }
 
 .footer1 {
