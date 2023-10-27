@@ -11,8 +11,9 @@ const Header = () => {
         <p>DestinationXplorer</p>
       </div>
       <div className={styles.navLinks}>
-       <Link to="/about" >About </Link>
-       <Link to="/services" >Services </Link>
+        <Link to="/"> Home</Link>
+        <Link to="/about">About </Link>
+        <Link to="/services">Services </Link>
       </div>
       <div className={styles.account}>
         <Link className={styles.acct1}>Log In</Link>
