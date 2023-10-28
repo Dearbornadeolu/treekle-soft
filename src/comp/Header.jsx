@@ -1,5 +1,4 @@
 import React from "react";
-import Xplorer from "../images/xplorer.png";
 import { Link } from "react-router-dom";
 import styles from "../comp/Header.module.css";
 
