@@ -1,1 +1,218 @@
+.mainOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px 60px;
+  gap: 30px;
+  align-items: center;
+  margin-bottom: 100px;
+}
 
+.images {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.build {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  padding-right: 250px;
+}
+
+.yar {
+  margin: 20px 0;
+  font-size: 16px;
+  padding-right: 50px;
+}
+
+.inputOne {
+  margin: 40px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  width: 282px;
+}
+
+.inputOne input {
+  padding: 0 10px;
+}
+
+.inputOne input:focus {
+  outline: none;
+}
+
+.inputOne button {
+  background-color: #7854f6;
+  color: white;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.imagesOne {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.girls {
+  border-radius: 15px;
+  position: relative;
+  left: 10px;
+}
+.helena {
+  border-radius: 15px;
+  position: relative;
+  /* margin-right: 20px; */
+  right: 20px;
+}
+.stock {
+  border-radius: 15px;
+  position: relative;
+  left: 60px;
+}
+.danilo {
+  height: 300px;
+}
+
+.e-simple {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 30px;
+  margin-bottom: 230px;
+}
+
+.eh {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 500px;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: 40px;
+}
+
+.simple-cards {
+  display: flex;
+  margin: 20px 80px;
+
+  position: relative;
+}
+
+.simpleImg {
+  width: 350px;
+  height: 250px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.simple-card p {
+  padding-right: 30px;
+  margin: 10px 0;
+}
+
+.simple-card h2 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.green {
+  color: #70c218;
+}
+
+.simple-card:nth-child(2) {
+  position: relative;
+  top: 50px;
+}
+
+.simple-card:nth-child(3) {
+  position: relative;
+  top: 100px;
+}
+
+.blue-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.blue-item:nth-child(2) {
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.blue-items {
+  margin: 0 100px;
+  position: absolute;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-70%, -50%); */
+}
+
+.blueboard {
+  width: 100%;
+  height: 900px;
+}
+
+.maskone {
+  width: 500px;
+  height: 450px;
+}
+
+.masktwo {
+  width: 500px;
+  height: 450px;
+}
+
+.dev {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.doc {
+  margin: 20px 0;
+  color: #fff;
+}
+
+.btnread {
+  background-color: #70c218;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+
+.mainBlue {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.yara {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6036ef;
+  color: #fff;
+  padding: 80px 60px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.yara-text {
+  font-size: 20px;
+  padding-right: 0 320px;
+}
+
+.getbtn {
+  font-weight: lighter;
+  border: 1px solid #fff;
+  width: 150px;
+  position: relative;
+  margin-left: 600px;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
