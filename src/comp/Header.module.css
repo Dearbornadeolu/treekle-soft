@@ -66,10 +66,6 @@
   letter-spacing: 0.16px;
 }
 
-.active {
-  /* border-bottom: 1px solid #f0c301; */
-}
-
 .link:hover {
   color: #606f82;
 }
