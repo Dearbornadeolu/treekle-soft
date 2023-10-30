@@ -12,8 +12,8 @@ import Masktwo from "../images/mask2.png";
 
 function Main() {
   return (
-    <div className="main">
-      <div className="mainOne">
+    <div>
+      <div className="mainOne main">
         <div>
           <h1 className="build">
             Building exactly the eCommerce website you want
@@ -39,7 +39,7 @@ function Main() {
 
       <div className="e-simple">
         <h1 className="eh">Your eCommerce made simple</h1>
-        <div className="simple-cards">
+        <div className="simple-cards main">
           <div className="simple-card">
             <img src={Start} alt="" className="simpleImg" />
             <h2>All You Need to Start</h2>
@@ -68,7 +68,7 @@ function Main() {
       </div>
 
       <div className="mainBlue">
-        <div className="blue-items">
+        <div className="blue-items main">
           <div className="blue-item">
             <img src={Maskone} alt="" className="maskone" />
             <div>
@@ -100,7 +100,7 @@ function Main() {
         <img src={Blue} alt="" className="blueboard" />
       </div>
 
-      <div className="yara">
+      <div className="yara ">
         <p className="yara-text">
           YARA - the{" "}
           <span className="bold"> most customizable eCommerce platform</span>{" "}

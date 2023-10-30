@@ -1,11 +1,10 @@
 .footer {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  padding: 70px 0px 70px 40px;
+  padding: 50px 80px;
   background: #6036ef;
   color: #fff;
   flex-shrink: 0;
-  cursor: pointer;
 }
 
 .footer1 {

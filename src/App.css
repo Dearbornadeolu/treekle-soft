@@ -1,3 +1,8 @@
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .mainOne {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -14,10 +19,10 @@
 }
 
 .build {
-  font-size: 40px;
-  line-height: 40px;
+  font-size: 60px;
+  line-height: 55px;
   font-weight: bold;
-  padding-right: 250px;
+  padding-right: 220px;
 }
 
 .yar {
@@ -79,23 +84,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px 30px;
+  justify-content: center;
+  margin: 50px 0;
   margin-bottom: 230px;
 }
 
 .eh {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
-  padding: 0 500px;
+  padding: 0 400px;
   text-align: center;
-  line-height: 35px;
+  line-height: 50px;
   margin-bottom: 40px;
 }
 
 .simple-cards {
   display: flex;
   margin: 20px 80px;
-
+  gap: 30px;
   position: relative;
 }
 
@@ -104,6 +110,10 @@
   height: 250px;
   margin-bottom: 20px;
   border-radius: 15px;
+}
+
+.simple-card {
+  max-width: 350px;
 }
 
 .simple-card p {
@@ -173,6 +183,7 @@
 .doc {
   margin: 20px 0;
   color: #fff;
+  font-size: 18px;
 }
 
 .btnread {
@@ -195,7 +206,10 @@
   justify-content: space-between;
   background-color: #6036ef;
   color: #fff;
-  padding: 80px 60px;
+  padding: 80px 80px;
+
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .bold {
