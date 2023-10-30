@@ -19,9 +19,9 @@ const Header = () => {
         <Link to="/services" className={styles.link}>
           Services{" "}
         </Link>
-        <Link to="/" className={styles.link}>
+        {/* <Link to="/" className={styles.link}>
           Blog{" "}
-        </Link>
+        </Link> */}
       </div>
       <div className={styles.account}>
         <Link className={styles.acct1}>Log In</Link>
