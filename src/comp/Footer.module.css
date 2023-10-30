@@ -5,6 +5,7 @@
   background: #6036ef;
   color: #fff;
   flex-shrink: 0;
+  cursor: pointer;
 }
 
 .footer1 {

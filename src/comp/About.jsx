@@ -57,7 +57,7 @@ const About = () => {
             <h1 className="text-[20px] font-extrabold text-center">+ 310%</h1>
             <p className="font-medium">increase in Revenue</p>
             <img src="/co1.svg" alt="" className="w-fit" />
-            <div className="text-center">
+            <div className="text-center pt-2">
               <Link to="#" className="text-[.9rem] font-bold underline text-center text-[#70C216] ">View Case study</Link>
             </div>
           </div>
@@ -65,15 +65,15 @@ const About = () => {
             <h1 className="text-[20px] font-extrabold text-center">+ 310%</h1>
             <p className="font-medium">increase in Revenue</p>
             <img src="/col2.svg" alt="" className="w-fit" />
-            <div className="text-center">
-              <Link to="#" className="text-[.9rem] font-bold underline text-center text-[#70C216] ">View Case study</Link>
+            <div className="text-center pt-2">
+              <Link to="#" className="text-[.9rem] font-bold underline text-center text-[#70C216]  ">View Case study</Link>
             </div>
           </div>
           <div>
             <h1 className="text-[20px] font-extrabold text-center">+ 310%</h1>
             <p className="font-medium">increase in Revenue</p>
             <img src="/col3.svg" alt="" className="w-fit" />
-            <div className="text-center">
+            <div className="text-center pt-2">
               <Link to="#" className="text-[.9rem] font-bold underline text-center text-[#70C216] ">View Case study</Link>
             </div>
           </div>
